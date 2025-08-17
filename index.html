@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inmobiliaria MR Floripa</title>
   <style>
     /* Reset y básicos */
@@ -218,6 +218,58 @@
       /* un poco transparente */
       z-index: 0;
       background-color: lightgray;
+    }
+
+
+
+
+
+    /* Ajuste general de imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Ajuste general del contenido */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Texto más legible en celular */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Media queries: adaptaciones */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
     }
   </style>
 </head>
